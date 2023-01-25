@@ -150,7 +150,7 @@ class ImplicitlyAnimatedReorderableList<E extends Object>
   const ImplicitlyAnimatedReorderableList({
     Key? key,
     required List<E> items,
-    required AnimatedItemBuilder<Reorderable, E> itemBuilder,
+    required MyAnimatedItemBuilder<Reorderable, E> itemBuilder,
     required ItemDiffUtil<E> areItemsTheSame,
     RemovedItemBuilder<Reorderable, E>? removeItemBuilder,
     UpdatedItemBuilder<Reorderable, E>? updateItemBuilder,
